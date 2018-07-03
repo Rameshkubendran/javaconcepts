@@ -28,3 +28,24 @@ public class SingleParameter{
         System.out.println(s2.say("Sonoo"));  
     }  
 }  
+
+
+
+/* Example 2 */
+
+/*
+
+@FunctionalInterface
+interface MyFunctionalInterface {
+
+	//A method with single parameter
+    public int incrementByFive(int a);
+}
+public class Example {
+
+   public static void main(String args[]) {
+        // lambda expression with single parameter num
+    	MyFunctionalInterface f = (num) -> num+5;
+        System.out.println(f.incrementByFive(22));
+    }
+} */
